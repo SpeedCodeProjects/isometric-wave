@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  background-color: #131626;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+svg {
+  height: 90%;
+}
+
+#CubeGroup1,
+#CubeGroup2,
+#CubeGroup3,
+#CubeGroup4,
+#CubeGroup5,
+#CubeGroup6,
+#CubeGroup7,
+#CubeGroup8,
+#CubeGroup9,
+#CubeGroup10,
+#CubeGroup11,
+#CubeGroup12,
+#CubeGroup13,
+#CubeGroup14,
+#CubeGroup15,
+#CubeGroup16 {
+  animation: waveAnimation 1.4s ease-in-out alternate infinite;
+  animation-fill-mode: forwards;
+}
+
+polygon {
+  fill-opacity: 0.8;
+}
+
+@keyframes waveAnimation {
+  to {
+    transform: translateY(500px);
+  }
+}
+
+#CubeGroup1 {
+  animation-delay: 0.2s;
+}
+
+#CubeGroup2 {
+  animation-delay: 0.4s;
+}
+
+#CubeGroup3 {
+  animation-delay: 0.6s;
+}
+
+#CubeGroup4 {
+  animation-delay: 0.8s;
+}
+
+#CubeGroup5 {
+  animation-delay: 1s;
+}
+
+#CubeGroup6 {
+  animation-delay: 1.2s;
+}
+
+#CubeGroup7 {
+  animation-delay: 1.4s;
+}
+
+#CubeGroup8 {
+  animation-delay: 1.6s;
+}
+
+#CubeGroup9 {
+  animation-delay: 1.8s;
+}
+
+#CubeGroup10 {
+  animation-delay: 2s;
+}
+
+#CubeGroup11 {
+  animation-delay: 2.2s;
+}
+
+#CubeGroup12 {
+  animation-delay: 2.4s;
+}
+
+#CubeGroup13 {
+  animation-delay: 2.6s;
+}
+
+#CubeGroup14 {
+  animation-delay: 2.8s;
+}
+
+#CubeGroup15 {
+  animation-delay: 3s;
+}
+
+#CubeGroup16 {
+  animation-delay: 3.2s;
+}
